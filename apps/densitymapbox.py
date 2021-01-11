@@ -22,9 +22,7 @@ layout = html.Div([
 html.Div([
         html.Div([
 
-
-            html.P('All Countries: Covid - 19 data 2020-01-22 to 2020-12-25', className = 'fix_label', style = {'color': 'black', 'margin-top': '2px'}),
-            html.P('Select Year:', className='fix_label',  style={'color': 'black', 'margin-top': '2px'}),
+            html.P('Select Year', className='fix_label',  style={'color': 'black', 'margin-top': '2px'}),
             dcc.RangeSlider(id='select_years1',
                             min=1965,
                             max=2016,
